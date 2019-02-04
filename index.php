@@ -73,33 +73,8 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item dropdown mega"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="developers.html#pricing">Career</a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-4 b-md-r"><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">Development</p>
-                                            <p class="my-0 small">Awesome design blocks</p>
-                                        </a><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">Marketing</p>
-                                            <p class="my-0 small">The developers' place</p>
-                                        </a><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">UI/UX</p>
-                                            <p class="my-0 small">The developers' place</p>
-                                        </a><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">Graphics</p>
-                                            <p class="my-0 small">The developers' place</p>
-                                        </a><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">Content Writing</p>
-                                            <p class="my-0 small">The developers' place</p>
-                                        </a></div>
-                                    <div class="col-md-8">
-                                        <h3 class="color-5 mb-0 light mt-4 mt-md-0">Imagination is more<span class="bold d-block">important than knowledge.</span></h3>
-                                        <p class="color-2">Our best bet is you, we can ensure that our template will fit most of your needs.</p><a href="pricing.html" class="btn btn-rounded btn-info mt-3">Apply</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <li class="nav-item"><a class="nav-link"  href="career.php">Career</a>
+                
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" target="_blank" href="https://acquirehowto.com/">Blog</a></li>
