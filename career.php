@@ -129,58 +129,7 @@
         </div>
     </div>
         </section><!-- ./Bring to life - Swiper -->
-        <section class="section bg-6">
-            <div class="container bring-to-front">
-                <div class="row gap-y align-items-center">
-                    <div class="col-md-6">
-                        <div class="rounded bg-3-gradient shadow">
-                            <div class="d-flex flex-column align-items-center py-3"><img src="img/bg/asset-1.svg" class="img-responsive w-50" alt=""></div>
-                        </div>
-                        <div class="rounded shadow-box bg-1 mt-3">
-                            <div class="media align-items-center px-3"><i class="pe pe-7s-graph pe-3x accent mr-3"></i>
-                                <div class="media-body my-3 pl-3 b-l">
-                                    <p class="bold my-0">Workplace for Group and Individuals</p>
-                                    <p class="my-0 color-2">We've included a fully functional workplace to start your project right away</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="rounded shadow-box bg-1 mt-3">
-                            <div class="media align-items-center px-3"><i class="pe pe-7s-graph1 pe-3x accent mr-3"></i>
-                                <div class="media-body my-3 pl-3 b-l">
-                                    <p class="bold my-0">Powered with multiple starter apps</p>
-                                    <p class="my-0 color-2">It's awesome you to have a nice feature to show up</p>
-                                    <hr class="my-3">
-                                    <nav id="sw-nav-1" class="nav nav-tabs tabs-clean border-bottom-0"><a href="javascript:void(0)" class="nav-item nav-link pl-md-0 py-0 d-flex flex-column align-items-center border-bottom-0 active" data-step="1"><i class="icon pe pe-7s-mail-open pe-2x"></i> <span class="d-none small">Inbox</span> </a><a href="javascript:void(0)" class="nav-item nav-link py-0 d-flex flex-column align-items-center border-bottom-0" data-step="2"><i class="icon pe pe-7s-date pe-2x"></i> <span class="d-none small">Calendar</span> </a><a href="javascript:void(0)" class="nav-item nav-link py-0 d-flex flex-column align-items-center border-bottom-0" data-step="3"><i class="icon pe pe-7s-note2 pe-2x"></i> <span class="d-none small">Invoice</span></a></nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 ml-md-auto text-center text-md-left">
-                        <p class="badge badge-info text-uppercase">Simple and transparent</p>
-                        <h2>Bring your application to life with DHT Cloud</h2>
-                        <p class="color-2">DHT includes an outstanding starter Cloud Application for our Developers Simple UI Interface. With this feature you can start developing right away your web application.</p>
-                        <hr>
-                        <div class="swiper-container" data-sw-navigation="#sw-nav-1" data-sw-navigation-active="active">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <figure class="shadow-box"><img src="img/screens/dash/inbox.png" alt="" class="img-responsive rounded"></figure>
-                                    <p class="small text-center text-danger">Clean inbox UI design</p>
-                                </div>
-                                <div class="swiper-slide">
-                                    <figure class="shadow-box"><img src="img/screens/dash/calendar.png" alt="" class="img-responsive rounded"></figure>
-                                    <p class="small text-center text-danger">16 Hours of Uptime in a Single Run!</p>
-                                </div>
-                                <div class="swiper-slide">
-                                    <figure class="shadow-box"><img src="img/screens/dash/invoice.png" alt="" class="img-responsive rounded"></figure>
-                                    <p class="small text-center text-danger">Start Building something awesome</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- ./Developers - Code snippets -->
-        <section class="singl-testimonial shadow">
+          <section class="singl-testimonial shadow">
             <div class="container-fluid py-0">
                 <div class="row align-items-center gradient gradient-54 color-1">
                     <div class="col-md-3 mx-auto py-4 py-md-0">
@@ -203,13 +152,7 @@ Let's put smart to work.</p>
                               <div class="col-md-3 register-left">
                                   <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
                                   <h3>Welcome</h3>
-                                  <p>You are 30 seconds away from earning your own pride!</p>
-                                  <p>Registration Fees: INR 250/-
-                                      <br>(Note: Their will be only one winner from one college.)
-                                  </p>
-                                  <p>Winner will be awarded with 5000 INR + Certificate + Letter of recommendation + 1 month Internship in DevelopHowto with Github Projects </p>
-
-                              </div>
+                                </div>
                               <div class="col-md-9 register-right">
                                   <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
                                       <li class="nav-item">
@@ -235,14 +178,11 @@ Let's put smart to work.</p>
                                                   </div>
                                                   <div class="form-group">
                                                       <div class="maxl">
-                                                          <label class="radio inline">
-                                                              <input type="radio" name="gender" value="male" checked>
-                                                              <span> Male </span>
-                                                          </label>
-                                                          <label class="radio inline">
-                                                              <input type="radio" name="gender" value="female">
-                                                              <span>Female </span>
-                                                          </label>
+                                                          <label>Gender</label>
+                                                          <select name="Gender">
+                                                             <option value="male">Male</option>
+                                                             <option value="female">Female</option>
+                                                             <option value="other">Other</option>
                                                       </div>
                                                   </div>
                                               </div>
@@ -296,31 +236,12 @@ Let's put smart to work.</p>
                 </div>
             </div>
         </section><!-- ./Join - As Developer/Designer -->
-        <section class="section bg-6">
-            <div class="container bring-to-front py-0">
-                <div class="shadow bg-1 p-5 rounded">
-                    <div class="row gap-y align-items-center text-center text-lg-left">
-                        <div class="col-12 col-md-6 py-4 px-5 b-md-r"><i class="pe pe-7s-diamond pe-3x color-3"></i> <a target="_blank" href="https://acquirehowto.com" class="mt-4 color-3 d-flex align-items-center">
-                                <h4 class="mr-3">Visit AcquireHowTo</h4><i class="fas fa-long-arrow-alt-right"></i>
-                            </a>
-                            <p class="mt-4">AcquireHowTo is your guide on the Web. Search, Browse and Discover the best knowledge of things across the web using the largest develop yourself articles index on the web. Watch the best online instructions, tutorials for free. Have your own Article? Submit them to share with the world.</p>
-                        </div>
-                        <div class="col-12 col-md-6 py-4 px-5"><i class="pe pe-7s-science pe-3x color-4"></i> <a href="javascript:void(0)" class="mt-4 color-4 d-flex align-items-center">
-                                <h4 class="mr-3">Join as Developer</h4><i class="fas fa-long-arrow-alt-right"></i>
-                            </a>
-                            <p class="mt-4">Join us as one of our developer and start changing the world together.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+      </main>
     <footer class="site-footer section">
             <div class="container pb-3">
                 <div class="row gap-y text-center text-md-left">
                     <div class="col-md-4 mr-auto"><img src="img/favicon.ico" alt="" class="logo">
-                        <p>Dashcore, a carefully crafted and powerful HTML5 template, it's perfect to showcase your startup or software</p>
-                    </div>
+                  </div>
                     <div class="col-md-2">
                         <h6 class="py-2 bold">Company</h6>
                         <nav class="nav flex-column"><a class="nav-item py-2" href="about.php">About</a> <a class="nav-item py-2" href="courses.develophowto.com">Courses</a> <a class="nav-item py-2" href="blog/blog-grid.html">Blog</a></nav>
