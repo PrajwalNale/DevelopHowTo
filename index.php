@@ -48,7 +48,7 @@
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item d-md-none d-lg-block"><a class="nav-link" href="about.php">About</a></li>
-                    <li class="nav-item dropdown mega"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="developers.html#pricing">Projects</a>
+                    <li class="nav-item dropdown mega"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="developers.html#pricing">Workshops</a>
                         <div class="dropdown-menu dropdown-menu-right">
                             <div class="container-fluid">
                                 <div class="row">
