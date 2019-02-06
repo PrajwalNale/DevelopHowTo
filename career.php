@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet"><!-- themeforest:css -->
     <link rel="stylesheet" href="css/vendor.min.css">
     <link rel="stylesheet" href="css/dashcore.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reg.css">
     <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet"><!-- endinject -->
     <!--script type="text/javascript">
         $(document).ready(function(){
@@ -60,33 +61,8 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item dropdown mega"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="developers.html#pricing">Career</a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-4 b-md-r"><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">Development</p>
-                                            <p class="my-0 small">Awesome design blocks</p>
-                                        </a><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">Marketing</p>
-                                            <p class="my-0 small">The developers' place</p>
-                                        </a><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">UI/UX</p>
-                                            <p class="my-0 small">The developers' place</p>
-                                        </a><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">Graphics</p>
-                                            <p class="my-0 small">The developers' place</p>
-                                        </a><a class="dropdown-item text-wrap" href="cs.html">
-                                            <p class="bold my-0">Content Writing</p>
-                                            <p class="my-0 small">The developers' place</p>
-                                        </a></div>
-                                    <div class="col-md-8">
-                                        <h3 class="color-5 mb-0 light mt-4 mt-md-0">Imagination is more<span class="bold d-block">important than knowledge.</span></h3>
-                                        <p class="color-2">Our best bet is you, we can ensure that our template will fit most of your needs.</p><a href="pricing.html" class="btn btn-rounded btn-info mt-3">Apply</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <li class="nav-item "><a class="nav-link "  href="career.php">Career</a>
+
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" target="_blank" href="https://acquirehowto.com/">Blog</a></li>
@@ -208,7 +184,7 @@
             <div class="container-fluid py-0">
                 <div class="row align-items-center gradient gradient-54 color-1">
                     <div class="col-md-3 mx-auto py-4 py-md-0">
-                        <p class="" style="font-family: 'Paytone One', sans-serif; font-size:1.6em;">What DevelopHowTo do</p>
+                        <p class="" style="font-family: 'Paytone One', sans-serif; font-size:1.3em;">How DevelopHowTo Works ? </p>
                         <p class="" style="font-family: 'Domine', serif; font-size:1.2em;">At DevelopHowto, work is more than a job—it's a calling. To build. To design. To code. To consult. To think along with clients and sell. To make markets. To invent. To collaborate.
 Not just to do something better, but to attempt things you've never thought possible. To lead in this new era of technology and solve some of the world's most challenging problems.
 Let's put smart to work.</p>
@@ -221,8 +197,92 @@ Let's put smart to work.</p>
             </div>
         </section><!-- ./Features - hover animated -->
         <section class="section b-b b-t bg-6">
-            <div class="container">
-          </div>
+          <body style="background-color:#000 !important;"><!------ Include the above in your HEAD tag ---------->
+          <div class="container register">
+                          <div class="row">
+                              <div class="col-md-3 register-left">
+                                  <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                                  <h3>Welcome</h3>
+                                  <p>You are 30 seconds away from earning your own pride!</p>
+                                  <p>Registration Fees: INR 250/-
+                                      <br>(Note: Their will be only one winner from one college.)
+                                  </p>
+                                  <p>Winner will be awarded with 5000 INR + Certificate + Letter of recommendation + 1 month Internship in DevelopHowto with Github Projects </p>
+
+                              </div>
+                              <div class="col-md-9 register-right">
+                                  <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                                      <li class="nav-item">
+                                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Student</a>
+                                      </li>
+                                  </ul>
+                                  <div class="tab-content" id="myTabContent">
+                                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                          <h2 class="register-heading">Register Here! </h2>
+                                          <div class="row register-form">
+                                              <div class="col-md-6">
+                                                  <div class="form-group">
+                                                      <input type="text" name="fname" class="form-control" placeholder="First Name *" value="" />
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <input type="password" class="form-control" placeholder="College *" value="" />
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <input type="password" class="form-control"  placeholder="Branch *" value="" />
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <div class="maxl">
+                                                          <label class="radio inline">
+                                                              <input type="radio" name="gender" value="male" checked>
+                                                              <span> Male </span>
+                                                          </label>
+                                                          <label class="radio inline">
+                                                              <input type="radio" name="gender" value="female">
+                                                              <span>Female </span>
+                                                          </label>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-md-6">
+                                                  <div class="form-group">
+                                                      <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <select class="form-control">
+                                                          <option class="hidden"  selected disabled>Select your Area of Intrest</option>
+                                                          <option>Frontend Developer</option>
+                                                          <option>Backend Developer</option>
+                                                          <option>Block Chain Developer</option>
+                                                          <option>AI/ML</option>
+                                                          <option>Marketing</option>
+                                                      </select>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <input type="text" class="form-control" placeholder="Semester *" value="" />
+                                                  </div>
+                                                  <input type="submit" class="btnRegister"  value="Register"/>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                      </div>
+          </body>
+
+
+
 
           <!-- ./Brands -->
         <section class="section bg-6">
